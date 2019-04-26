@@ -1,11 +1,11 @@
-# TORSO detection package from LaserScan 2D points.
+# Torso detection package from LaserScan 2D points.
 
 This package listen from `/scan_ubg` laser scan message.
 
 
 ## Usage:
 
- - clone this repo.
+ - Clone this repo.
  - `catkin_make`
  - `rosrun new_torso_detection new_torso_detection.py `
 
