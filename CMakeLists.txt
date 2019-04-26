@@ -12,7 +12,7 @@ find_package(catkin REQUIRED COMPONENTS
   visualization_msgs  
   geometry_msgs
   laser_geometry
-  robina_human_tracker_lrf
+#  robina_human_tracker_lrf
   roslib      
 )
 
@@ -90,7 +90,16 @@ generate_messages(
 ## CATKIN_DEPENDS: catkin_packages dependent projects also need
 ## DEPENDS: system dependencies of this project that dependent projects also need
 catkin_package(
-CATKIN_DEPENDS geometry_msgs laser_geometry robina_human_tracker_lrf roslib rospy sensor_msgs std_msgs tf visualization_msgs
+  CATKIN_DEPENDS 
+  geometry_msgs 
+  laser_geometry 
+#  robina_human_tracker_lrf 
+  roslib 
+  rospy 
+  sensor_msgs 
+  std_msgs 
+  tf 
+  visualization_msgs
 )
 
 
