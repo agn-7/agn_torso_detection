@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 2.8.3)
-project(new_torso_detection)
+project(agn_torso_detection)
 
 ## Find catkin macros and libraries
 ## if COMPONENTS list like find_package(catkin REQUIRED COMPONENTS xyz)
@@ -112,24 +112,24 @@ catkin_package(
 ## Your package locations should be listed before other locations
 # include_directories(include)
  install(PROGRAMS
-   script/new_torso_detection
+   script/agn_torso_detection
    DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
 )
 
 ## Declare a cpp library
-# add_library(new_torso_detection
-#   src/${PROJECT_NAME}/new_torso_detection.cpp
+# add_library(agn_torso_detection
+#   src/${PROJECT_NAME}/agn_torso_detection.cpp
 # )
 
 ## Declare a cpp executable
-# add_executable(new_torso_detection_node src/new_torso_detection_node.cpp)
+# add_executable(agn_torso_detection_node src/agn_torso_detection_node.cpp)
 
 ## Add cmake target dependencies of the executable/library
 ## as an example, message headers may need to be generated before nodes
-# add_dependencies(new_torso_detection_node new_torso_detection_generate_messages_cpp)
+# add_dependencies(agn_torso_detection_node agn_torso_detection_generate_messages_cpp)
 
 ## Specify libraries to link a library or executable target against
-# target_link_libraries(new_torso_detection_node
+# target_link_libraries(agn_torso_detection_node
 #   ${catkin_LIBRARIES}
 # )
 
@@ -148,7 +148,7 @@ catkin_package(
 # )
 
 ## Mark executables and/or libraries for installation
-# install(TARGETS new_torso_detection new_torso_detection_node
+# install(TARGETS agn_torso_detection agn_torso_detection_node
 #   ARCHIVE DESTINATION ${CATKIN_PACKAGE_LIB_DESTINATION}
 #   LIBRARY DESTINATION ${CATKIN_PACKAGE_LIB_DESTINATION}
 #   RUNTIME DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
@@ -173,7 +173,7 @@ catkin_package(
 #############
 
 ## Add gtest based cpp test target and link libraries
-# catkin_add_gtest(${PROJECT_NAME}-test test/test_new_torso_detection.cpp)
+# catkin_add_gtest(${PROJECT_NAME}-test test/test_agn_torso_detection.cpp)
 # if(TARGET ${PROJECT_NAME}-test)
 #   target_link_libraries(${PROJECT_NAME}-test ${PROJECT_NAME})
 # endif()

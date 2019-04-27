@@ -319,6 +319,6 @@ class TorsoDetection:
 
 
 if __name__ == '__main__':
-    rospy.init_node('new_torso_detection', anonymous=True)
+    rospy.init_node('agn_torso_detection', anonymous=True)
     TorsoDetection = TorsoDetection()
     rospy.spin() 

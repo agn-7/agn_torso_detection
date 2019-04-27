@@ -7,7 +7,7 @@ This package listen from `/scan_ubg` laser scan message.
 
  - Clone this repo.
  - `catkin_make`
- - `rosrun new_torso_detection new_torso_detection.py `
+ - `rosrun agn_torso_detection agn_torso_detection.py `
 
 ### TODO:
  - Refactoring (I wrote this node, when I was a newbie in Python.)
