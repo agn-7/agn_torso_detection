@@ -1,6 +1,6 @@
-# Torso detection package from LaserScan 2D points.
+# Torso detection package through LaserScan 2D points.
 
-This package listen from `/scan_ubg` laser scan message.
+This package listens to the `/scan_ubg` laser scan message.
 
 
 ## Usage:
