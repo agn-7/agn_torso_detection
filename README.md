@@ -1,7 +1,7 @@
 # Torso detection package through LaserScan 2D points.
 
-This package listens to the `/scan_ubg` laser scan message.
-
+ - This package listens to the `/scan_ubg` laser scan message.
+ - Tested on *ROS Kinetic* and *Python2.7*
 
 ## Usage:
 
