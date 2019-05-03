@@ -79,7 +79,7 @@ class TorsoDetection:
         
         m.pose.position.x = x
         m.pose.position.y = y
-        m.pose.position.z = 0
+        m.pose.position.z = 0.2
         
         m.pose.orientation.x = 0
         m.pose.orientation.y = 0
