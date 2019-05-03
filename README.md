@@ -2,6 +2,7 @@
 
  - This package listens to the `/scan_ubg` laser scan message.
  - Tested on *ROS Kinetic* and *Python2.7*
+ - Torso markers publishes on `/TorsoMarker` topic.
 
 ## Usage:
 
