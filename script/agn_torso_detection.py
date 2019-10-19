@@ -69,12 +69,12 @@ class TorsoDetection:
         m.id = id
         m.type = visualization_msgs.msg.Marker.SPHERE
 
-        if (is_start == True):
+        if is_start:
             m.color.r = 1.0
         else:
             m.color.g = 1.0
 
-        m.color.a = 1.0;
+        m.color.a = 1.0
 
         m.pose.position.x = x
         m.pose.position.y = y
@@ -94,7 +94,7 @@ class TorsoDetection:
     def upLaserCb(self, laser):
         veto = True
         if self.torsoPublisher.get_num_connections() > 0 or veto:  # for scenario used
-            print("Starttttttttttttttttttttt")
+            print("Start ...")
             i = 180  # qablan 360
             clustersCount = 0
             localFirstPoint = 120  # zavie 0 daraje #180 #360   # zavie 45 ta 135 robrooye robot beshe 280 theta0 = 45
@@ -177,7 +177,7 @@ class TorsoDetection:
             ###print(clustersDistance)
             # print(indexes)
             ###print (markIndexes)
-            i = 0;
+            i = 0
             goodClusters = []
             goodIndexes = []
             goodMarkers = []
@@ -429,6 +429,6 @@ class TorsoDetection:
 
 
 if __name__ == '__main__':
-    rospy.init_node('new_torso_detection', anonymous=True)
+    rospy.init_node('agn_torso_detection', anonymous=True)
     TorsoDetection = TorsoDetection()
     rospy.spin() 
